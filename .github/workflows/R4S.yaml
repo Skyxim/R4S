@@ -25,7 +25,7 @@ jobs:
       - name: checkout
         uses: actions/checkout@v2
         with:
-          ref: mian
+          ref: main
       - name: Initialization environment
         env:
           DEBIAN_FRONTEND: noninteractive

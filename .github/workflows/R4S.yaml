@@ -7,7 +7,7 @@ on:
     paths:
       - "prepare.sh"
       - "config.sh"
-    workflow_dispatch:
+  workflow_dispatch:
 env:
   REPO_URL: https://github.com/coolsnowwolf/lede
   REPO_BRANCH: master
@@ -23,7 +23,7 @@ jobs:
     runs-on: ubuntu-18.04
     steps:
       - name: checkout
-        uses: action/checkout@v2
+        uses: actions/checkout@v2
         with:
           ref: mian
       - name: Initialization environment

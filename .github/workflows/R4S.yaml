@@ -60,8 +60,8 @@ jobs:
           ./scripts/feeds install -a
       - name: Load custom configuration
         run: |
-          chmod +x $CONFIG_SH
-          ./$CONFIG_SH
+          rm .config
+          cp config .config
       - name: Download package
         run: |
           cd openwrt

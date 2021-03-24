@@ -58,7 +58,9 @@ jobs:
           ./scripts/feeds install -a
       - name: Load custom configuration
         run: |
-          cp config .config
+          cd openwrt
+          rm .config
+          cp ../config .config
       - name: Download package
         run: |
           cd openwrt

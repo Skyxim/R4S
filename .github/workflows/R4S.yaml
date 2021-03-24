@@ -6,14 +6,12 @@ on:
       - mian
     paths:
       - "prepare.sh"
-      - "config.sh"
   workflow_dispatch:
 env:
   REPO_URL: https://github.com/coolsnowwolf/lede
   REPO_BRANCH: master
   CONFIG_FILE: .config
   SCRIPT_SH: prepare.sh
-  CONFIG_SH: config.sh
   UPLOAD_FIRMWARE: true
   TZ: Asia/Shanghai
 

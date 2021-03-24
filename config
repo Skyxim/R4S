@@ -1,6 +1,4 @@
-#!/bin/bash
-cd openwrt
-cat >> .config <<EOF
+
 #
 # Automatically generated file; DO NOT EDIT.
 # OpenWrt Configuration

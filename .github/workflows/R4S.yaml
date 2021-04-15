@@ -1,6 +1,8 @@
 name: R4S
 
 on:
+  schedule:
+      - cron: '0 16 * * 4'
   push:
     branches:
       - mian

@@ -100,7 +100,7 @@ jobs:
       - name: Create release
         uses: ncipollo/release-action@v1
         with:
-          name: ${{ env.DATE }}  R4S Release
+          name: ${{ env.DATE }}  R4S-IMMORTALWRT Release
           allowUpdates: true
           tag: ${{ env.tag_name }}
           commit: main

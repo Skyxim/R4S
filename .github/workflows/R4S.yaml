@@ -6,8 +6,6 @@ on:
   push:
     branches:
       - mian
-    paths:
-      - "prepare.sh"
   workflow_dispatch:
 env:
   REPO_URL: https://github.com/immortalwrt/immortalwrt

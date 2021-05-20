@@ -1,7 +1,7 @@
 #!/bin/bash
 cd openwrt
 echo "clone openclash"
-git clone https://github.com/vernesong/OpenClash.git package-temp
+git clone --depth=1 https://github.com/vernesong/OpenClash.git package-temp
 mv -f package-temp/luci-app-openclash package/lean/
 rm -rf package-temp
 echo "clone adguard home"

@@ -10,8 +10,8 @@ mv -f package-temp/ package/lean/luci-app-adguardhome
 rm -rf package-temp
 
 
-echo "clone theme-argon"
-git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git  theme-temp/luci-theme-argon
-rm -rf package/lean/luci-theme-argon
-mv -f theme-temp/luci-theme-argon package/lean/
-rm -rf theme-temp
+#echo "clone theme-argon"
+#git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git  theme-temp/luci-theme-argon
+#rm -rf package/lean/luci-theme-argon
+#mv -f theme-temp/luci-theme-argon package/lean/
+#rm -rf theme-temp

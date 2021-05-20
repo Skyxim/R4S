@@ -15,3 +15,6 @@ git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git  theme-temp
 rm -rf package/lean/luci-theme-argon
 mv -f theme-temp/luci-theme-argon package/lean/
 rm -rf theme-temp
+
+echo "clone helloworld"
+git clone git@github.com:fw876/helloworld.git package/lean/helloworld

@@ -17,4 +17,4 @@ mv -f theme-temp/luci-theme-argon package/lean/
 rm -rf theme-temp
 
 echo "clone helloworld"
-git clone git@github.com:fw876/helloworld.git package/lean/helloworld
+git clone https://github.com/immortalwrt/helloworld.git package/lean/helloworld
